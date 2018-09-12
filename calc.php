@@ -11,19 +11,10 @@ if (isset($_POST['txt'])){
 	unset($_POST['txt']);
 }
 
-
-
-
-
-
 // Режим отображения
 if (isset($_SESSION['vmod'])){
 	$vmod=$_SESSION['vmod'];
 }else {$vmod='tbl';}
-
-
-
-
  
  $crd= new parcel();
   
@@ -53,7 +44,6 @@ if (isset($_SESSION['vmod'])){
 
 <script type="text/javascript" src="jquery.js"></script>  
 <script type="text/javascript" src="calck.js"></script>  
-
 
 <title>Редактор Координат</title>
 
