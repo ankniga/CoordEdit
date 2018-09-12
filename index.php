@@ -1,4 +1,4 @@
-<?php session_start();
+﻿<?php session_start();
 if (!isset($_SESSION['crd'])) {  unset( $_SESSION['crd']);}
 $ver=$_SESSION['version']='2.2';
 ?>
@@ -39,6 +39,5 @@ $ver=$_SESSION['version']='2.2';
 </td></tr></table>
 </form>
 </div>
-
 </body>
 </html>
