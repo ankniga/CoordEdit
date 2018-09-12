@@ -40,7 +40,6 @@ if (isset($_SESSION['vmod'])){
 <link rel="icon" type="image/png" href="IMG/mapf.png" />
 <link rel="stylesheet" type="text/css" href="css/checkbox.css">
 <link rel="stylesheet" type="text/css" href="css/TableData.css">
-
 <script type="text/javascript" src="jquery.js"></script>  
 <script type="text/javascript" src="calck.js"></script>  
 
