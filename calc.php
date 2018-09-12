@@ -36,7 +36,6 @@ if (isset($_SESSION['vmod'])){
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"  "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-
 <head>
 <link rel="icon" type="image/png" href="IMG/mapf.png" />
 <link rel="stylesheet" type="text/css" href="css/checkbox.css">
@@ -65,8 +64,6 @@ if (isset($_SESSION['vmod'])){
 </tr>
 </table>
 </div>
-
-
 <div id='col1'>
 		<a href='#' onclick="showadd();"><div class="head" > Добавить Контур </div></a>	
 			<div id="bnddiv"><?php echo $crd->boundtable();?><br>
