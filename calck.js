@@ -11,11 +11,9 @@ var ht=0;
 var dm=0; 
 
 
-
 $(window).resize(marker);
 
 $(window).keydown(arrows);
-
 
 function arrows(e){
 	var rowCount = $('#bounds tr').length;
@@ -28,16 +26,10 @@ function arrows(e){
     select(sb);
 }
 
-
 $(document).ready(function() {
     var dropZone = $('#bndadd'),
         maxFileSize = 1000000; // максимальный размер файла - 1 мб.
 });
-
-
-
-
-
 
 function setmap(){
 	$('#col2').hide();
