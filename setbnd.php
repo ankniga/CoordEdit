@@ -2,7 +2,7 @@
 require_once 'parcel.php';
 session_start();
 
-// Включение выключение контура
+// Включение выключение контура исправить
 	$crd= new parcel();
 	$bid=$_POST['bid'];  // Номер контура
 	$sw=$_POST['sw'];	 // Положение переключателя	
@@ -17,6 +17,4 @@ session_start();
 	$ans['bcnt']=$crd->bounds_count();
 	$_SESSION['crd']=serialize($crd);
 	echo json_encode($ans);
-	
-	
 ?>
